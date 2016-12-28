@@ -1,6 +1,6 @@
-# Ejercicio - 7
+# Ejercicio - Positivo - Negativo
 
-### Inicio: realizar la suma de 10
+### Inicio: Positivo /negativo
 
 ## Ingreso datos
 
@@ -12,9 +12,9 @@
 
  + Pedir num1
  + Pedír num2
-    + si - y +  se mostrara 1 
+    + si num1 y num 2 son - se mostrara 1 
+    + si num1 o num 2 son - se mostrara 1 
     + si  no 0
-+ si ambos son - = 1
-+ si no 0 
-    -
+
 ####Fin
+

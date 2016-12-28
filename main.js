@@ -1,17 +1,14 @@
 function calcular(){
-    var num1 = parseFloat(document.getElementById("num_1").value);
-    var num2 = parseFloat(document.getElementById("num_2").value);
+    var num1 = document.getElementById("num_1");
+    var num2 = document.getElementById("num_2");
     var salida = document.getElementById("salida");
-    var negativo = true;
     
-        
-    if(   ){
-        salida.innerHTML = "1";
+    var numa = num1.value;
+    var numb = num2.value;
+    
+    if (numa > 0 && numb > 0){
+        salida.innerHTML = "0";
     }else{
-        if (suma == 10){
-           salida.innerHTML = "1"; 
-        }else{
-            salida.innerHTML  = "0";
-        }
+        salida.innerHTML = "1";
     }
 }
